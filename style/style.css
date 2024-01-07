@@ -184,3 +184,37 @@ main {
     width: 140px;
 height: 140px;
 }
+/* porfolio section design */
+.porfolio-section{
+    margin-top: 120px;
+}
+.portfolio-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.portfolio-item-image{
+    
+}
+.best-gift{
+    color: #F00;
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 500;
+}
+.Our-porfolio{
+    color: #070211;
+font-family: 'Merriweather';
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-top: 0px;
+}
+.gift-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0px;
+}
