@@ -276,3 +276,51 @@ text-transform: capitalize;
 margin-top: 0px;
 
 }
+/* footer design */
+footer{
+    background: #070211;
+    padding: 120px;
+}
+.contact-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    
+}
+.contact-icon{
+    color: #FFF;
+font-family:'Inter';
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+}
+.hozontal-line{
+    border-top: 1px solid  rgba(255, 255, 255, 0.15);
+    margin: 0px 100px;
+}
+.social-icon{
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.icon-image{
+    width: 64px;
+height: 64px;
+margin-right: 24px;
+}
+.coppyright-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    margin-top: 48px;
+}
+#phone{
+    margin-right: 10px;
+}
+#globe{
+    margin-right: 10px;
+}
