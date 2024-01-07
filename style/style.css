@@ -3,8 +3,22 @@ font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif;
 */
 /* banner section design */
+/* shared style */
+.btn-primary{
+    border-radius: 8px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 16px 32px;
+border: 0px;
+}
 main {
     max-width: 1320px;
+    margin: auto;
 }
 
 .banner-info {
@@ -28,7 +42,7 @@ main {
     font-family: 'Merriweather', serif;
     font-size: 32px;
     font-weight: 400;
-   margin-top: 0px;
+    margin-top: 0px;
 }
 
 .header-title {
@@ -71,5 +85,39 @@ main {
     font-family: 'Inter';
     font-size: 48px;
     font-weight: 700;
+    margin-top: 0px;
+}
+/* welcome section design */
+.welcome-section {
+    background-image: url('../resources/Vectorrr.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.welcome-info {
+    width: 50%;
+    padding: 120px 126px 500px 126px;
+}
+
+.welcome-info-header {
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.welcome-info-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
     margin-top: 0px;
 }
