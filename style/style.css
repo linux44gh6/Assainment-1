@@ -4,18 +4,19 @@ font-family: 'Merriweather', serif;
 */
 /* banner section design */
 /* shared style */
-.btn-primary{
+.btn-primary {
     border-radius: 8px;
-background: #F00;
-color: #FFF;
-text-align: center;
-font-family: 'Inter';
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
-padding: 16px 32px;
-border: 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border: 0px;
 }
+
 main {
     max-width: 1320px;
     margin: auto;
@@ -37,7 +38,7 @@ main {
 }
 
 .new-year-title {
-   color:rgba(122,152,97);
+    color: rgba(122, 152, 97);
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 32px;
@@ -46,7 +47,7 @@ main {
 }
 
 .header-title {
-    color:rgba(122,152,97);
+    color: rgba(122, 152, 97);
     text-align: center;
     font-family: 'Merriweather';
     font-size: 72px;
@@ -54,6 +55,7 @@ main {
     line-height: 95px;
     margin-top: 0px;
 }
+
 /* discount section */
 .discount-section {
     width: 50%;
@@ -87,6 +89,7 @@ main {
     font-weight: 700;
     margin-top: 0px;
 }
+
 /* welcome section design */
 .welcome-section {
     background-image: url('../resources/Vectorrr.png');
@@ -120,4 +123,64 @@ main {
     font-weight: 400;
     line-height: 30px;
     margin-top: 0px;
+}
+
+/* offer section design */
+.offer-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    margin-top: 120px;
+   
+}
+
+.new-best-offer {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.comming-soon {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.of-image{
+    border-radius: 364.844px;
+}
+.offer-image {
+   border: 10px solid red;
+   border-radius: 50%;
+   padding: 50px;
+   text-align: center;
+}
+
+.year-2024 {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.year-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.happy-new-year-junior{
+    width: 140px;
+height: 140px;
 }
