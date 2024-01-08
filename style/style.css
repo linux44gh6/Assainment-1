@@ -30,11 +30,10 @@ main {
     align-items: center;
     border-radius: 10px;
     margin-bottom: 120px;
-    background-image: linear-gradient(to left rgb(24, 24, 24));
+    background-image: linear-gradient(to left rgb(139, 133, 133));
     position: relative;
 }
 .gradinent{
-   color: black;
    height: 100vh;
   width: 100%;
    margin: 0px auto;
@@ -119,14 +118,19 @@ main {
     position: relative;
 }
 .welcome-section-gradient{
-    color: black;
    height: 100vh;
    width: 100%;
    margin: 0px auto;
    position: absolute;
-   background-image: linear-gradient(to right,black,transparent);
+   background-image: linear-gradient(to right,rgb(17, 17, 17),transparent);
    border-radius: 10px;
    z-index: 0;
+}
+.image-2024{
+    text-align: right;
+    position: absolute;
+    top: 15%;
+    left: 70%;
 }
 .welcome-info {
     width: 50%;
@@ -293,7 +297,7 @@ margin-top: 0px;
     border-radius: 0px 50px 50px 0px;
 background: #F00;
 padding: 18px 39px 23px 38px;
-margin-left: -166px;
+margin-left: -176px;
 border: 0px;
 color: #FFF;
 text-align: center;
@@ -353,6 +357,11 @@ margin-right: 24px;
     margin-right: 10px;
 }
 /* hover part */
+.portfolio-item-image{
+    overflow: hidden;
+    transition: .7s;
+}
 .portfolio-item-image:hover{
-
+transform: scale(1.1);
+cursor: pointer;
 }
